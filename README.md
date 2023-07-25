@@ -1,0 +1,1 @@
+This is a Full stack react-native e-commerce app
