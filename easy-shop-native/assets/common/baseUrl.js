@@ -1,7 +1,7 @@
 import { Platform } from 'react-native'
 
 
-let baseURL = '';
+let baseURL = 'https://easy-shop-natives.vercel.app/api/v1';
 
 {Platform.OS == 'android'
 ? baseURL = 'http://10.0.2.2:3000/api/v1/'
