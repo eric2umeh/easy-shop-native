@@ -6,7 +6,7 @@ import SingleProduct from "../Screens/Products/SingleProduct"
 
 const Stack = createStackNavigator()
 
-function MyStack() {
+function HomeNavigator() {
     return (
         <Stack.Navigator>
             <Stack.Screen 
@@ -26,7 +26,7 @@ function MyStack() {
         </Stack.Navigator>
     )
 }
-
-export default function HomeNavigator() {
-    return <MyStack />;
-}
+export default HomeNavigator;
+// export default function HomeNavigator() {
+//     return <MyStack />;
+// }
