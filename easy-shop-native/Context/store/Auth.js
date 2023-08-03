@@ -3,7 +3,6 @@ import jwt_decode from "jwt-decode";
 import AsyncStorage from "@react-native-community/async-storage"
 
 import authReducer from "../reducers/Auth.reducer";
-import { setCurrentUser } from "../actions/Auth.actions";
 import AuthGlobal from './AuthGlobal'
 
 const Auth = props => {
